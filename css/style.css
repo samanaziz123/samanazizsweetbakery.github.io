@@ -1,0 +1,957 @@
+/* fonts */
+@font-face {
+    font-family: 'DM Sans 18pt';
+    src: url('DMSans18pt-Bold.woff2') format('woff2'),
+        url('DMSans18pt-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 18pt';
+    src: url('../fonts/DMSans18pt-BoldItalic.woff2') format('woff2'),
+        url('../fonts/DMSans18pt-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 18pt';
+    src: url('../fonts/DMSans18pt-ExtraLightItalic.woff2') format('woff2'),
+        url('../fonts/DMSans18pt-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 18pt';
+    src: url('../fonts/DMSans18pt-MediumItalic.woff2') format('woff2'),
+        url('../fonts/DMSans18pt-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 18pt';
+    src: url('../fonts/DMSans18pt-Medium.woff2') format('woff2'),
+        url('../fonts/DMSans18pt-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 18pt';
+    src: url('../fonts/DMSans18pt-Black.woff2') format('woff2'),
+        url('../fonts/DMSans18pt-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 18pt';
+    src: url('../fonts/DMSans18pt-Italic.woff2') format('woff2'),
+        url('../fonts/DMSans18pt-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 18pt';
+    src: url('../fonts/DMSans18pt-ExtraBoldItalic.woff2') format('woff2'),
+        url('../fonts/DMSans18pt-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 18pt';
+    src: url('../fonts/DMSans18pt-Light.woff2') format('woff2'),
+        url('../fonts/DMSans18pt-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 18pt';
+    src: url('../fonts/DMSans18pt-ExtraLight.woff2') format('woff2'),
+        url('../fonts/DMSans18pt-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 18pt';
+    src: url('../fonts/DMSans18pt-ExtraBold.woff2') format('woff2'),
+        url('../fonts/DMSans18pt-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 18pt';
+    src: url('../fonts/DMSans18pt-BlackItalic.woff2') format('woff2'),
+        url('../fonts/DMSans18pt-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 18pt';
+    src: url('../fonts/DMSans18pt-Regular.woff2') format('woff2'),
+        url('../fonts/DMSans18pt-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 18pt';
+    src: url('../fonts/DMSans18pt-LightItalic.woff2') format('woff2'),
+        url('../fonts/DMSans18pt-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 18pt';
+    src: url('../fonts/DMSans18pt-SemiBold.woff2') format('woff2'),
+        url('../fonts/DMSans18pt-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 24pt';
+    src: url('../fonts/DMSans24pt-Black.woff2') format('woff2'),
+        url('../fonts/DMSans24pt-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 18pt';
+    src: url('../fonts/DMSans18pt-SemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/DMSans18pt-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 24pt';
+    src: url('../fonts/DMSans24pt-Medium.woff2') format('woff2'),
+        url('../fonts/DMSans24pt-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 24pt';
+    src: url('../fonts/DMSans24pt-LightItalic.woff2') format('woff2'),
+        url('../fonts/DMSans24pt-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 24pt';
+    src: url('../fonts/DMSans24pt-Light.woff2') format('woff2'),
+        url('../fonts/DMSans24pt-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 18pt';
+    src: url('../fonts/DMSans18pt-ThinItalic.woff2') format('woff2'),
+        url('../fonts/DMSans18pt-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 18pt';
+    src: url('../fonts/DMSans18pt-Thin.woff2') format('woff2'),
+        url('../fonts/DMSans18pt-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 24pt';
+    src: url('../fonts/DMSans24pt-BlackItalic.woff2') format('woff2'),
+        url('../fonts/DMSans24pt-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 24pt';
+    src: url('../fonts/DMSans24pt-ExtraBoldItalic.woff2') format('woff2'),
+        url('../fonts/DMSans24pt-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 24pt';
+    src: url('../fonts/DMSans24pt-BoldItalic.woff2') format('woff2'),
+        url('../fonts/DMSans24pt-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 24pt';
+    src: url('../fonts/DMSans24pt-ExtraLight.woff2') format('woff2'),
+        url('../fonts/DMSans24pt-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 24pt';
+    src: url('../fonts/DMSans24pt-ExtraBold.woff2') format('woff2'),
+        url('../fonts/DMSans24pt-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'DM Sans 24pt';
+    src: url('../fonts/DMSans24pt-Bold.woff2') format('woff2'),
+        url('../fonts/DMSans24pt-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 24pt';
+    src: url('../fonts/DMSans24pt-Italic.woff2') format('woff2'),
+        url('../fonts/DMSans24pt-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 24pt';
+    src: url('../fonts/DMSans24pt-ExtraLightItalic.woff2') format('woff2'),
+        url('../fonts/DMSans24pt-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+/* fonts */
+body{
+    overflow-x: hidden;
+    margin: 0;
+    font-family: 'DM Sans 18pt';
+}
+.wrapper {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+/* header */
+header {
+    background: #fff;
+}
+.header {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+    justify-content: center;
+}
+
+.header .logobox {
+    width: 20%;
+}
+.header img.mainlogo {
+    height: 120px;
+}
+.header .menu {
+    width: 30%;
+}
+.header .menu ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style: none;
+}
+.header .menu ul li a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 26px;
+    color: #4b4342;
+    margin: 0 15px;
+    padding-bottom: 5px;
+}
+.header .menu ul li a:hover {
+    border-bottom: 1px solid #5fcac7;
+}
+.header .social-icons {
+    width: 30%;
+}
+.social-icons ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons ul li a {
+    padding: 0 15px;
+    color: #202020;
+    padding-bottom: 5px;
+}
+.social-icons ul li a:hover {
+    border-bottom: 1px solid #5fcac7;
+}
+.headerbutton {
+    width: 20%;
+    text-align: center;
+}
+a.btn.headerbtn {
+    line-height: 40px;
+    margin: 0 9px;
+    font-weight: 500;
+    text-decoration: none;
+    background-color: #5fcac7 !important;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+/* header */
+
+/* banner */
+section.main-banner {
+    position: relative;
+    height: 150vh;
+}
+#background-video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  .banner-content {
+    position: absolute;
+    color: #fff;
+    z-index: 9999;
+    left: 10%;
+    top: 18%;
+    bottom: 0;
+  }
+
+section.main-banner:after {
+    content: '';
+    height: 100%;
+    width: 100%;
+    display: block;
+    background: #000000ad;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+section.main-banner h1 {
+    font-size: 4.5rem;
+    line-height: 86px;
+}
+section.main-banner p {
+    margin-bottom: 0;
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 1.375rem;
+    line-height: 32px;
+}
+section.main-banner a.btn.btn-banner {
+    line-height: 60px;
+    padding: 0 40px;
+    font-weight: 700;
+    margin-top: 100px;
+    position: relative;
+    display: inline-block;
+    background: #5fcac7;
+    color: #fff;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 22px;
+}
+section.main-banner a.btn.btn-banner:hover {
+    background: #4da7a4;
+}
+/* banner */
+
+/* specialties */
+section.specialties {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background-image: url(../bakery4-5-1200x800.jpg);
+}
+section.specialties .contentbox {
+    margin-bottom: 25px;
+}
+section.specialties .contentbox h2 {
+    text-align: center;
+    font-size: 3.625rem;
+    line-height: 70px;
+    color: #4b4342;
+    margin-bottom: 100px;
+    margin-top: 0;
+}
+
+.special-row {
+    display: flex;
+}
+
+.special-row .specialtiesbox {
+    width: 33.33%;
+    margin-bottom: 20px;
+}
+.specialtiesbox-inner {
+    padding: 10px 50px;
+}
+
+.special-row .specialtiesbox img {
+    max-width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    width: 170px;
+    height: 110px;
+    width: 100%;
+    height: 160px;
+}
+
+.special-row .specialtiesbox h3 {
+    text-align: center;
+    font-weight: 500;
+    margin-top: 25px;
+    color: #4b4342;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+/* specialties */
+
+/* magic */
+section.magic-process {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background-image: url(../bakery12-3-1200x800.jpg);
+    position: relative;
+}
+section.magic-process:after {
+    content: '';
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+    background-color: rgb(95, 202, 199);
+    display: block;
+    position: absolute;
+    top: 0;
+}
+.magic-process-box {
+    position: relative;
+    z-index: 999;
+    padding: 65px 20px 75px;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    text-align: center;
+}
+.magic-process-inner {
+    width: 55%;
+    margin: 0 auto;
+}
+.magic-process-box i {
+    font-size: 62px;
+    color: #ffffff;
+}
+
+.magic-process-box h2 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    color: #ffffff;
+    font-size: 2.625rem;
+    line-height: 52px;
+}
+
+.magic-process-box p {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 26px;
+    margin-top: 25px;
+    margin-bottom: 0;
+    color: #ffffff;
+}
+.magic-process-box a.btn.btn-transparentbtn {
+    display: inline-block;
+    background: none;
+    border-color: #ffffff;
+    color: #ffffff;
+    border: 2px solid;
+    padding: 10px 20px;
+    margin-top: 60px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.magic-process-box a.btn.btn-transparentbtn:hover {
+    background: #fff;
+    color: #7a7a7a;
+    border-color: #fff;
+}
+/* magic */
+
+/* creation */
+section.our-creations {
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+section.our-creations .creation-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section.our-creations .creation-row .creation-img-box {
+    width: 25%;
+}
+
+section.our-creations .creation-row .creation-img-box .creation-img-box-inner img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+section.our-creations .creation-row .creation-img-box .creation-img-box-inner {
+    padding: 10px;
+}
+section.our-creations .content h2 {
+    font-size: 2.625rem;
+    line-height: 52px;
+    margin-top: 25px;
+    margin-bottom: 60px;
+    color: #4b4342;
+}
+
+section.our-creations .content i {
+    color: #ff91a4;
+    font-size: 60px;
+}
+/* creation */
+
+/* recipies */
+section.recipies-for-youcontent {
+    background-image: url(../bakery25-1200x800.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+    padding-top: 4rem;
+    padding-bottom: 0rem;
+    position: relative;
+}
+section.recipies-for-youcontent:after {
+    content: '';
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    position: absolute;
+    top: 0;
+}
+section.recipies-for-you {
+    padding-top: 2rem;
+    padding-bottom: 10rem;
+    background-image: url(../bakery24-1-1200x800.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+section.recipies-for-you:after {
+    content: '';
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    position: absolute;
+    top: 0;
+}
+section.recipies-for-youcontent .content {
+    position: relative;
+    z-index: 99;
+    text-align: center;
+}
+
+section.recipies-for-youcontent .content h2 {
+    text-align: center;
+    font-size: 2.625rem;
+    margin-bottom: 0;
+    color: #4b4342;
+    margin-top: 25px;
+}
+
+section.recipies-for-youcontent .content i {
+    font-size: 56px;
+    color: #ff91a4;
+}
+
+section.recipies-for-you .recipiesboxforyou {
+    position: relative;
+    z-index: 99;
+    text-align: center;
+    font-size: 1.375rem;
+    line-height: 32px;
+}
+section.recipies-for-you .recipiesboxforyou img {
+    border-radius: 50%;
+    max-width: 100%;
+    height: 120px;
+}
+/* recipies */
+
+/* client say */
+section.client-say {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    position: relative;
+    background-image: url(../bakery26-1200x800.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+section.client-say:after {
+    content: '';
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+    background-color: rgb(255, 145, 164);
+    display: block;
+    position: absolute;
+    top: 0;
+}
+section.client-say .content {
+    position: relative;
+    z-index: 99;
+    text-align: center;
+}
+
+section.client-say .content h2 {
+    font-size: 2.625rem;
+    line-height: 52px;
+    margin-bottom: 55px;
+    color: #ffffff;
+}
+section.client-say .client-row {
+    position: relative;
+    z-index: 99;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+}
+section.client-say .client-row .client-box {
+    width: 50%;
+}
+section.client-say .client-row .client-box .client-box-inenr ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+section.client-say .client-row .client-box .client-box-inenr ul li img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+section.client-say .client-row .client-box .client-box-inenr ul li.client-imagebox {
+    width: 20%;
+}
+
+section.client-say .client-row .client-box .client-box-inenr ul  li.client-textbox {
+    width: 80%;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+section.client-say .client-row .client-box .client-box-inenr ul li.client-textbox p {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+section.client-say .client-row .client-box .client-box-inenr ul li.client-textbox p.signature {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 26px;
+    letter-spacing: 2px;
+    font-weight: 500 !important;
+}
+section.client-say .client-row .client-box .client-box-inenr ul li.client-textbox p.company {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 26px;
+    margin: 0;
+    color: #ebeaed;
+}
+/* client say */
+
+/* special cakes */
+
+section.special-cakes {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #ffffff;
+}
+
+section.special-cakes .special-cakes-box {
+    display: flex;
+}
+
+section.special-cakes .special-cakes-box .table-box {
+    width: 60%;
+}
+
+section.special-cakes .special-cakes-box .question-box {
+    width: 40%;
+}
+section.special-cakes .special-cakes-box .table-box table {
+    width: 100%;
+    text-align: left;
+}
+section.special-cakes .special-cakes-box .table-box table td {
+    border-bottom: 2px solid #ebeaed;
+    margin: 0;
+    padding: 22px 30px 20px 30px;
+}
+section.special-cakes .special-cakes-box .table-box table th {
+    font-size: 1.375rem;
+    line-height: 32px;
+    color: #919dab;
+    margin-bottom: 0;
+    border-bottom: 2px solid #ebeaed;
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+section.special-cakes .content h2 {
+    font-size: 2.625rem;
+    line-height: 52px;
+    margin-bottom: 40px;
+    color: #4b4342;
+}
+section.special-cakes .question-box-inner {
+    width: 50%;
+    background: #efefef;
+    margin: 0 auto;
+    padding: 35px;
+    background-color: #f3f2f4;
+    border-radius: 6px;
+    max-width: 270px;
+    margin-left: auto;
+    height: auto;
+}
+
+section.special-cakes .question-box-inner h3 {
+    margin-bottom: 0;
+    font-weight: 400;
+    color: #4b4342;
+    font-size: 1.375rem;
+    line-height: 32px;
+    margin-top: 0;
+}
+section.special-cakes .question-box-inner p {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-weight: 500;
+    color: #919dab;
+    color: #5fcac7;
+}
+/* special cakes */
+
+/* newsletter */
+section.newsletter {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background-image: url(../bakery3-2-1200x800.jpg);
+    position: relative;
+}
+section.newsletter:after {
+    content: '';
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+    background-color: rgb(75, 67, 66);  
+    display: block;
+    position: absolute;
+    top: 0;
+}
+section.newsletter .content {
+    position: relative;
+    z-index: 99;
+    text-align: center;
+}
+
+section.newsletter .content h2 {
+    font-size: 3.625rem;
+    line-height: 70px;
+    color: #fff;
+}
+section.newsletter .formbox {
+    position: relative;
+    z-index: 99;
+    width: 50%;
+    margin: 0 auto;
+}
+section.newsletter .formbox ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+section.newsletter .formbox ul li {
+    margin: 0 10px;
+}
+
+section.newsletter .formbox ul input {
+    border: 2px solid #ebeaed;
+    opacity: .4;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #ffffff !important;
+    background-color: transparent !important;
+    height: 60px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 30px;
+}
+section.newsletter .formbox ul button.btn.btnblue {
+    height: 60px;
+    line-height: 60px;
+    padding: 0 40px;
+    font-weight: 700;
+    background-color: #5fcac7 !important;
+    border-color: #5fcac7 !important;
+    color: #ffffff !important;
+    border-radius: 50px !important;
+    font-size: 1.25rem;
+    border: none;
+}
+section.newsletter .socials.text-white {
+    position: relative;
+    z-index: 99;
+    text-align: center;
+}
+
+section.newsletter .socials.text-white .icons-menu .soc-item ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+section.newsletter .socials.text-white .icons-menu .soc-item ul li {
+    margin: 0 10px;
+}
+section.newsletter .socials.text-white .icons-menu .soc-item ul li a {
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.25s ease;
+    color: #fff;
+    text-decoration: none;
+}
+section.newsletter .socials.text-white .icons-menu .soc-item ul li a:hover {
+    border-color: #fff;
+}
+section.newsletter .socials p.title__social {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 26px;
+    color: #fff;
+    margin-top: 65px;
+}
+/* newsletter */
+
+/* footer */
+footer {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: #2a2a2a;
+}
+
+footer .footer-row {
+    display: flex;
+    align-items: center;
+}
+
+footer .footer-row .footer-cols {
+    width: 33.33%;
+}
+footer .footer-row .footer-cols ul.foot__menu {
+    display: flex;
+    list-style: none;
+}
+
+footer .footer-row .footer-cols ul.foot__menu li.footer_menu__items {
+    margin: 0 20px 0 0px;
+}
+
+footer .footer-row .footer-cols ul.foot__menu li.footer_menu__items a {
+    text-decoration: none;
+    color: #fff;
+}
+.footer-center {
+    text-align: center;
+    color: #fff;
+}
+.footer-last a {
+    text-align: right;
+    color: #fff;
+    text-decoration: none;
+}
+/* footer */
